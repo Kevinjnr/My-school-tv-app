@@ -1,0 +1,5 @@
+/studentportal/.env
+/studentportal/core/__pycache__/
+/studentportal/studentportal/__pycache__
+/studentportal/core/migrations/__pycache__/
+/studentportal/core/migrations/0001_initial.py
