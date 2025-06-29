@@ -3,3 +3,4 @@
 /studentportal/studentportal/__pycache__
 /studentportal/core/migrations/__pycache__/
 /studentportal/core/migrations/0001_initial.py
+/db.sqlite3
