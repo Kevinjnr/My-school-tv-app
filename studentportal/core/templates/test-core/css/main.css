@@ -160,6 +160,9 @@ iframe {
   line-height: 1.5;
   color: #fff; 
 }
+.welcome-two{
+  font-size: 1.5rem;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -250,10 +253,12 @@ iframe {
   color: #333333;
   line-height: 1.2;
   text-align: center;
-
   width: 100%;
   display: block;
   /* padding-bottom: 54px; */
+}
+.login100-form-title:hover{
+  color:#fff;
 }
 
 
