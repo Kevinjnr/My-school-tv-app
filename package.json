@@ -1,0 +1,48 @@
+{
+  "name": "my-school-tv",
+  "version": "1.0.0",
+  "description": "IJMB platform",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "dev": "cross-env NODE_ENV=development nodemon backend/server",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && npm run setup",
+    "start": "cross-env NODE_ENV=production node backend/server.js",
+    "conc": "concurrently \"npm run dev --prefix frontend\" \"npm run dev\"",
+    "setup": "node backend/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetroBlue/my_school_tv.git"
+  },
+  "keywords": [
+    "IJMB"
+  ],
+  "author": "ekoxyprince kelvinjnr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MetroBlue/my_school_tv/issues"
+  },
+  "homepage": "https://github.com/MetroBlue/my_school_tv#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10",
+    "vite": "^7.0.6"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "cross-env": "^10.0.0",
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.3",
+    "sequelize": "^6.37.7"
+  }
+}
