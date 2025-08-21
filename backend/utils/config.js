@@ -7,6 +7,7 @@ export default {
   db_user: env.DB_USER,
   db_pass: env.DB_PASS,
   db_host: env.DB_HOST,
+  db_port: env.DB_PORT,
   port: env.PORT || 6000,
   jwt_secret: env.JWT_SECRET,
   client: "http://localhost:5173",
